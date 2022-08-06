@@ -1,0 +1,126 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+img {
+    width: 250px;
+}
+
+header {
+    display: inline;
+}
+
+main{
+    padding: 20px;
+    overflow: auto;
+}
+
+footer{
+    padding: 10px;
+    color: white;
+    background: #516c91;
+    text-align: center;
+    font-weight: bold;
+}
+
+#content{
+    float: right;
+    width: 70%;
+}
+
+aside{
+    float: left;
+    width: 30%;
+    padding-right: 20px;
+}
+
+h2, h3{
+    color: #314f78;
+}
+
+.biodata{
+    text-align: center;
+}
+
+.biodata p{
+    margin-top: -20px;
+}
+
+section h3,table{
+    text-align: left;
+}
+
+.sub-bab{
+    padding-left: 20px;
+}
+
+.sub-bab h4{
+    padding-left: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Jumbotron Start */
+.jumbotron {
+    padding: 60px;
+    text-align: center;
+    background: #516c91;
+    color: white;
+}
+
+/* Jumbotron End */
+
+/* Nav Start */
+nav {
+    padding: 10px;
+    background: #314f78;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav li a:Hover{
+    font-weight: bold;
+}
+/* Nav End */
+
+/* Card Start */
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+/* Card End */
+
+@media screen and (max-width: 1000px) {
+    #content, aside{
+        width: 100%;
+        padding: 0;
+    }
+}
